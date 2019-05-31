@@ -13,9 +13,20 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
   },
   "dependencies": {
+    "@contentful/gatsby-transformer-contentful-richtext": "^13.1.0",
+    "@emotion/core": "^10.0.10",
+    "dotenv": "^8.0.0",
     "gatsby": "^2.7.3",
+    "gatsby-plugin-emotion": "^4.0.7",
+    "gatsby-plugin-typography": "^2.2.13",
+    "gatsby-source-contentful": "^2.0.65",
+    "gatsby-source-filesystem": "^2.0.37",
+    "gatsby-transformer-remark": "^2.3.12",
     "react": "^16.8.6",
-    "react-dom": "^16.8.6"
+    "react-dom": "^16.8.6",
+    "react-typography": "^0.16.19",
+    "typography": "^0.16.19",
+    "typography-theme-kirkham": "^0.16.19"
   },
   "devDependencies": {
     "prettier": "^1.17.1"

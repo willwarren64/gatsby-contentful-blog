@@ -19,6 +19,8 @@ export default ({ data }) => {
           Contentful Gatsby Blog
         </h1>
         <h4>{data.allContentfulBlog.totalCount} Posts</h4>
+
+        
         {data.allContentfulBlog.edges.map(({ node, index }) => (
           <div key={index}>
               <Link

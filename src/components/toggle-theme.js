@@ -6,13 +6,14 @@ class MyComponent extends React.Component {
     return (
         <ThemeToggler>
             {({ theme, toggleTheme }) => (
-            <label>
+            <label className="switch">
+
                 <input
                 type="checkbox"
                 onChange={e => toggleTheme(e.target.checked ? 'dark' : 'light')}
                 checked={theme === 'dark'}
                 />{' '}
-                Night Theme
+                <span class="slider"/>
             </label>
             )}
         </ThemeToggler>

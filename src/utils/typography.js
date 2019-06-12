@@ -33,6 +33,9 @@ kirkhamTheme.overrideThemeStyles = () => ({
     label: {
         color: 'var(--textNormal)',
     },
+    span: {
+        color: 'var(--textNormal)',
+    },
     hr: {
         background: 'var(--hr)',
     },

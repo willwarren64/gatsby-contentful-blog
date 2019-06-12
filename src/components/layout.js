@@ -37,7 +37,7 @@ export default ({ children }) => {
             css={css`
               backgroundColor: 'var(--bg)',
               color: 'var(--textNormal)',
-              transition: 'color 0.2s ease-out, background 0.2s ease-out',
+              transition: 'color .4s ease-out, background 1s ease-out',
               margin-bottom: ${rhythm(2)};
               display: inline-block;
               font-style: normal;
@@ -47,7 +47,10 @@ export default ({ children }) => {
           </h3>
         </Link>
       </div>
+      <span>
         <MyComponent />
+      Night Theme
+      </span>
       {children}
     </div>
   )

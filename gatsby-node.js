@@ -23,13 +23,13 @@ const path = require(`path`)
           throw result.errors
         }
         const posts = result.data.allContentfulBlog.edges
-        console.log('[will] result.data', result.data)
-        
+
+
         posts.forEach((post, index) => {
           const previous = index === posts.length -1 ? null : posts[index + 1].node
           const next = index === 0 ? null : posts[index-1].node
-          console.log('[will] post', post)
-          
+
+
         createPage({
           path: post.node.slug,
           component: blogPost,

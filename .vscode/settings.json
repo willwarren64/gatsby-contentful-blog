@@ -6,5 +6,23 @@
         "titleBar.inactiveForeground": "#000000",
         "editor.selectionBackground": "#e65b28",
         "editor.selectionHighlightBackground": "#28e68770"
-    }
+    },
+    "colorInfo.languages": [
+        {
+            "selector": "css",
+            "colors": "css"
+        }, {
+            "selector": "sass",
+            "colors": "css"
+        }, {
+            "selector": "scss",
+            "colors": "css"
+        }, {
+            "selector": "less",
+            "colors": "css"
+        }, {
+            "selector": "html",
+            "colors": "css"
+        }
+    ]
 }
